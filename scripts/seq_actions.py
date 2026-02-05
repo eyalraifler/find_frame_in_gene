@@ -9,7 +9,7 @@ def check_seq_starts_and_ends_with_codon(seq):
     True if the sequence starts with the start codon and ends with one of the stop codons, False otherwise.
     """
     
-    pattern = rf"^ATG[ATCG]*(TAA|TAG|TGA)$"
+    pattern = rf"ATG[ATCG]*(TAA|TAG|TGA)$"
     match = re.fullmatch(pattern, seq)
     
     if match:
