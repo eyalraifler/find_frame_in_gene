@@ -1,0 +1,4 @@
+Number of yeast coding sequences with start and end codons: 6709
+Number of genes ending with TAA: 3154, 47.01%
+Number of genes ending with TAG: 1558, 23.22%
+Number of genes ending with TGA: 1997, 29.77%
