@@ -1,0 +1,12 @@
+feedback:
+Good and well-structured solution with clear separation between the main script and the helper function module. The FASTA parsing, stop codon counting, and percentage calculations are implemented correctly, and the use of a separate function for ORF validation is good modular design.
+
+A few points could be improved:
+
+The helper function implementation (check_seq_starts_and_ends_with_codon) is not shown here, so the correctness of the regex itself cannot be fully verified from this file alone.
+The code assumes that at least one valid ORF exists; otherwise, the percentage calculations would cause a division-by-zero error.
+Using with open(...) for the input file would be safer and more standard.
+
+Overall, this is a solid implementation with good organization.
+
+Grade: 7/8
